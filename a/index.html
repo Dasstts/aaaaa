@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <img src="images/icon-mercado.png" alt="Ícone do mercado" id="mercado">
+
+        <h1 id="titulo">Hortifruti Centrão</h1>
+
+        <span class="material-symbols-outlined" id="imagem-menu" class="naoselecionavel" onclick="menuClick()" >menu</span>
+
+        <nav id="menu" class="naoselecionavel">
+            <span class="material-symbols-outlined" id="close" onclick="menuClick()" >close</span>
+            <ul>
+                <li><a href="#" class="link-menu">Home</a></li>
+                <li><a href="#" class="link-menu">Carrinho</a></li>
+                <li><a href="#" class="link-menu">Contato</a></li>
+                <li><a href="#" class="link-menu">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="frutas">
+            <h2 class="nome-fruta">Banana</h2>
+            <div class="caixa-fruta"><img src="images/banana.png" alt="Banana" class="fruta"></div>
+            <div class="caixa-comprar">Comprar</div>
+        </div>
+
+        <div class="frutas">
+            <h2 class="nome-fruta">Kiwi</h2>
+            <div class="caixa-fruta"><img src="images/kiwi.png" alt="Banana" class="fruta"></div>
+            <div class="caixa-comprar">Comprar</div>
+        </div>
+
+        <div class="frutas">
+            <h2 class="nome-fruta">Melancia</h2>
+            <div class="caixa-fruta"><img src="images/melancia.png" alt="Banana" class="fruta"></div>
+            <div class="caixa-comprar">Comprar</div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

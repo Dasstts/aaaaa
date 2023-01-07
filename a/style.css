@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 0px 0px 10px 10px;
+
+    background-color: #F7D002;
+    margin-bottom: 50px;
+}
+
+#mercado {
+    width: 50px;
+}
+
+#titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -58%);
+
+    font-size: 1.5em;
+    text-shadow: #0000006b 2px 2px 1px;
+}
+
+#imagem-menu {
+    font-size: 50px;
+    margin-top: 2px;
+    float: right;
+    display: block;
+
+}
+
+.naoselecionavel {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#menu {
+    display: none;
+    list-style: none;
+    background-color: #0000008f;
+    width: 350px;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 100%;
+
+    transform: translate(-100%, 0%);
+
+}
+
+ul {
+    margin-left: 10px;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    
+}
+
+a.link-menu {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a.link-menu:hover {
+    background-color: #bd9d01;
+}
+
+#close {
+    display: none;
+    font-size: 50px;
+    text-align: right;
+}
+
+div.frutas {
+    margin: auto;
+    text-align: center;
+    
+    border: 4px solid #000000;
+    
+    border-radius: 30px;
+    width: 400px;
+    
+    margin-bottom: 50px;
+}
+
+h2.nome-fruta {
+    border-bottom: 3px solid #000000;
+    padding: 10px;
+    margin-bottom: 25px;
+    
+}
+
+div.caixa-fruta {
+    width: 100%;
+    border-bottom: 3px solid #000000;
+}
+
+img.fruta {
+    margin-bottom: 25px;
+    width: 300px;
+}
+
+div.caixa-comprar {
+    width: 392px;
+    padding: 12px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 0px 0px 25px 25px;
+    cursor: pointer;
+    transition: .30s;
+}
+
+div.caixa-comprar:hover {
+    background-color: rgb(168, 3, 3);
+    color: black;
+    transition: .30s;
+}
+
+
+
+
+
+
+
